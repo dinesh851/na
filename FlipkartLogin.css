@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+  *{
+    font-size: medium;
+  }
+
+  .navbar-custom {
+    background-color: #2874f0; /* Flipkart blue color */
+    position: fixed;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .navbar-brand img {
+    margin-left: 70px;
+  }
+
+  .navbar-brand {
+    font-size: 12px;
+    color: #fdd835;
+    display: block;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-link i {
+    margin-right: 10px; /* Add margin between icon and text */
+  }
+
+  .nav-item{
+    margin-right: 42px;
+  }
+
+  .btn-outline-light {
+    background-color: white;
+    color: #fff;
+  }
+  
+  .btn-light, .btn-light:hover {
+    height: 30px;
+    width: 150px;
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .custom-text-color {
+    color: #ffffff;
+    font-size: medium;
+  }
+  
+
+  /* LOGIN CONTAINER */
+
+  .custom-login{
+    margin-top: 0%;
+    background-color: #f1f3f6;
+  }
+
+  .content-container {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .h4{
+    padding-top: 50px;
+    color: white;
+    font-weight: 600;
+    padding-left: 4px;
+  }
+
+  .n3{
+    color: white;
+    padding-left: 4px;
+  }
+
+  .n2, .n1{
+    color: #dbdbdb;
+    padding-left: 4px;
+  }
+  
+  .n1{
+    padding-top: 5px;
+  }
+
+  .lgn{
+    padding-top: 145px;
+    padding-left: 25px;
+
+  }
+  
+  /* Login - Mobile Number */
+
+  .wrapper {
+    width: 350px;
+    background: transparent;
+    padding: 25px;
+    padding-top: 60px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .wrapper .input-data {
+    height: 40px; 
+    width: 107%;
+    position: absolute;
+    font-size: small;
+  }
+
+  .wrapper .input-data input {
+    height: 100%;
+    width: 107%;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .wrapper .input-data input:focus {
+    border-bottom: 2px solid #2874f0;
+  }
+
+  .input-data input:focus ~ label,
+  .input-data input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #2874f0;
+  }
+
+  .wrapper .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .wrapper .input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .input-data .underline:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 80%;
+    background: #2874f0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .input-data input:focus ~ .underline:before,
+  .input-data input:valid ~ .underline:before {
+    transform: scaleX(1);
+  }
+
+  .mbn{
+    margin-top: 50px;
+    padding-left: 15px;
+  }
+
+.btn-custom-continue {
+    width: 460px;
+    font-size: 16px;
+    font-weight:700;
+    align-items: center;
+    border-radius: 4px;
+}
+.btn-custom-continue:hover {
+    /* background-color: #e64a19; */
+    color: white;
+}
+.login-link {
+    display: block;
+    text-align: center;
+    color: #1a73e8;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 460px;
+}
+.login-link:hover {
+    text-decoration: none;
+}
+.card-custom {
+    padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #172337;
+  color: #a5a5a5;
+  padding: 16px 0px;
+  margin-top: 2px;
+  font-size: 14px;
+}
+.footer a {
+  color: #a5a5a5;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer .footer-title {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer .contact-info {
+  font-size: 12px;
+}
+
+.vertical-line {
+  border-left: 1px solid #4b4b4b;
+  height: 75%;
+  position: absolute;
+  left: -5%;
+  top: 0;
+}
+
+.footer-end, .footer-end-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #172337;
+}
+
+.footer-links {
+  font-size: 13px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1.7rem;
+  display: inline-block;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-payment-methods {
+  width: 300px;
+  text-align: right;
+}
+
+.footer-payment-methods img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+.border-t {
+  border-top: 1px solid #848484;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pl-3{
+  padding-left: 0.75rem;
+  color: #fff;
+}
+
+.pl-3:hover{
+  color: #fff;
+}
+.scale-125 {
+  transform: scale(1.25);
+}
+

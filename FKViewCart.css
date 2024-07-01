@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.btn-light, .btn-light:hover{
+    height: 30px;
+    width: 150px;
+    background-color: #fff;
+    color: #2874f0;
+}
+
+  *{
+    font-size: medium;
+  }
+
+  .navbar-custom {
+    background-color: #2874f0; /* Flipkart blue color */
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .navbar-brand img {
+    margin-right: 90px;
+  }
+
+  .nav-link{
+    color: #fff;
+  }
+
+  .bas{
+    padding-left: 10px;
+  }
+
+  .btn-outline-light{
+    background-color: white;
+    color: #fff;
+  }
+
+  .custom-text-color {
+    color: #fff;
+    font-size:medium;
+  }
+
+  .dpnav{
+    padding-left: 500px;
+  }
+
+
+/* Viwewcart Container CSS */
+.container-fluid{
+  background-color: #f1f3f6;
+}
+
+.custom-fluid1{
+  background-color: #f1f3f6;
+}
+
+.in-stock{
+  color: rgb(7, 173, 7);
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.item-actions a {
+  margin-right: 10px;
+}
+
+.total-saving {
+  color: blue;
+}
+
+.change-btn{
+  margin-left: 400px;
+  position: relative;
+}
+
+.btnc{
+  width: 250px;
+  height: 250px;
+  background-color: #2874f0;
+}
+
+.card{
+  border:#172337;
+}
+
+.card-add{
+  padding: -5px;
+  display: flex;
+}
+
+.card-title{
+  display: flex;
+}
+
+.card-text{
+  margin-top: 2px;
+}
+
+.card-title-container{
+  align-items: center;
+}
+
+.card-body-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-actions .btn {
+  margin-right: 5px;
+}
+
+.totamt{
+  margin-right: 18px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #172337;
+    color: #a5a5a5;
+    padding: 16px 0px;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .footer a {
+    color: #a5a5a5;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .footer .footer-title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer .contact-info {
+    font-size: 12px;
+  }
+  
+  .vertical-line {
+    border-left: 1px solid #4b4b4b;
+    height: 75%;
+    position: absolute;
+    left: -5%;
+    top: 0;
+  }
+  
+  .footer-end, .footer-end-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #172337;
+  }
+  
+  .footer-links {
+    font-size: 13px;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1.7rem;
+    display: inline-block;
+  }
+  
+  .footer-link:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-payment-methods {
+    width: 300px;
+    text-align: right;
+  }
+  
+  .footer-payment-methods img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 20px;
+  }
+  
+  .border-t {
+    border-top: 1px solid #848484;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .pl-3{
+    padding-left: 0.75rem;
+    color: #fff;
+  }
+  
+  .pl-3:hover{
+    color: #fff;
+  }
+  .scale-125 {
+    transform: scale(1.25);
+  }
+  
+  

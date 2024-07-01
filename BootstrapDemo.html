@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Column Example</title>
+
+  <!-- BOOTSTRAP 5 CSS LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="Bootstrap.css"> -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      padding: 20px;
+      background-color: lightblue;
+      
+    }
+
+    .col{
+      padding-bottom: 10px;
+    }
+
+    .row-col-3{
+      left: 150px;
+      right: 150px; 
+      padding-top: 20px;
+
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row row-col-3 mt-3" style="position: sticky;">
+    <div class="col col-lg-4 col-md-6 col-sm-12">
+      <div class="card mb-5 shadow-sm">
+        <p>This column takes up different widths based on the screen size.</p>
+      </div>
+    </div>
+    <div class="col col-lg-4 col-md-6 col-sm-12">
+      <div class="card mb-5 shadow-sm">
+        <p>Another column with the same responsive behavior.</p>
+      </div>
+    </div>
+    <div class="col col-lg-4 col-md-6 col-sm-12">
+      <div class="card mb-5 shadow-sm">
+        <p>Yet another column demonstrating responsive design.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Container -->
+  <div class="container-fluid custom-login" style="background-color: #f1f3f6;">
+    <div class="login-wrapper" style="padding-top: 1rem; padding-bottom: 1rem;">
+      <div class="container-xl rounded rounded-2 col-lg-4 col-md-6 col-sm-12" style="background-color: #2874f0; width: 60%; height: 530px;position: sticky;">
+        <div class="row">
+          <div class="col-md-4 mt-3 col-lg-4 col-md-6 col-sm-12" style="position: sticky;">
+            <div class="content-box align-items-start" style="color: #fff;">
+              <div class="h4">Looks like you're new</div>
+              <div class="n3"><h4>here!</h4></div>
+              <div class="n1" style="font-size: medium; font-weight: 400;">Sign up with your mobile number</div>
+              <div class="n2" style="font-size: medium; font-weight: 400;">to get started</div>
+              <img src="img/login image.png" alt="login image" class="lgn">
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4 col-sm-12" style="position: sticky;">
+            <div class="content-box1 bg-white align-items-center rounded rounded-end-2" style="height: 530px; width: 139%; padding: 1rem; position: sticky;">
+              <div class="wrapper">
+                <div class="input-data">            
+                  <input type="text" id="mobile-number" required>
+                  <div class="underline"></div>
+                  <label>Enter Mobile Number</label>
+                </div>
+                <div class="invalid-feedback" role="alert" id="alert-message">
+                  Please enter a valid Mobile number.
+                </div>
+              </div>
+    
+              <div class="mbn text-secondary" style="font-size: 10px;">
+                By continuing, you agree to Flipkart's 
+                <a href="#" class="text-primary" style="font-size: 10px;">Terms of Use</a> and 
+                <a href="#" class="text-primary" style="font-size: 10px;">Privacy Policy</a>.
+              </div>
+    
+              <div class="mt-3 d-flex flex-column align-items-center">
+                <!-- Continue Button -->
+                <button class="btn btn-custom-continue text-white mb-3" type="submit" style="background-color: #ff5722;">CONTINUE</button> 
+                
+                <!-- Log in Link -->
+                <a href="#" class="login-link card card-custom">Existing User? Log in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- BOOTSTRAP 5 JS SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

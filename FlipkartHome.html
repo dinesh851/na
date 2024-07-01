@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="FlipkartHome.css">
+    <!-- BOOTSTRAP 5 CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-custom sticky-top">
+        <div class="container-xxl">
+          <div class="row w-100">
+            
+            <!-- Navbar Brand -->
+            <div class="col-lg-2 d-flex align-items-center">
+                <a class="navbar-brand text-white" href="#">
+                  <img src="img/Flipkart-Logo-01.png" alt="Flipkart logo" height="30">
+                </a>
+            </div>
+    
+            <!-- Search Bar -->
+            <div class="col-lg-6 d-flex align-items-center justify-content-start">
+                <form class="d-flex w-100" role="search">
+                  <input class="form-control me-2 custom-text-color" type="search" placeholder="Search for Products, Brands and more" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit"><i class="fas fa-search"><img src="img/search_icon.png" alt="search icon" width="20"></i></button>
+                </form>
+                <a href="#" class="btn btn-light align-items-center btn-sm mx-1 custom-text-color border mw-100" style="width: 140px; height: 35px; color: #2874f0;"><strong>Login</strong></a>
+            </div>
+
+            <div class="demo col-lg-4 text-white bg-primary align-items-center justify-content-between">
+                <div class="p"><strong>Become a Seller</strong></div>
+                <li class="nav-item dropdown no-bullets">
+                    <a class="nav-link dropdown-toggle" style="color: #fff;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>Namachi</strong></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                        <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                        <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                        <li><a class="dropdown-item" href="#"> Download App</a></li>
+                    </ul>
+                </li>
+                <div class="custom-p"><strong>Cart</strong></div>
+            </div>
+          </div>
+        </div>
+    </nav>      
+    
+<div class="container-fluid mr-1 ml-1">
+        <!-- Secondary Navbar -->
+        <div class="container-fluid d-flex flex-wrap">
+            <div class="custom-xxl d-flex flex-row text-black bg-white mt-1 mb-2 ml-0 mr-0 justify-content-center" >
+                <div class="p-2 text-white" style="margin-right: 80px;">Flex item 2</div>
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+                    <img class="imgfash" src="img/Grocery.webp" alt="Grocery"></a>
+                    <h6 class="text-black text-center">Grocery</h6>
+                </div>
+                
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_5e01c5bc-5c75-47ee-90b2-6529441a32e8_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">
+                    <img class="imgfash" src="img/Mobile.webp" alt="Mobile"></a>
+                    <h6 class="text-black text-center">Mobile</h6>
+                </div>
+                            
+                <div class="p-2">
+                    <div class="align-center">
+                        <img class="imgfash1" src="img/Fashion.webp" alt="Fashion">
+                        <li class="nav-item dropdown no-bullets">
+                            <a class="sec-nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fashion</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                                <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                                <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                                <li><a class="dropdown-item" href="#"> Download App</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <div class="align-center">
+                        <img class="imgfash2" src="img/Electronics.webp" alt="Electronics">
+                        <li class="nav-item dropdown no-bullets">
+                            <a class="sec-nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Electronics</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                                <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                                <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                                <li><a class="dropdown-item" href="#"> Download App</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <div class="align-center">
+                        <img class="imgfash3" src="img/Home & Furnitures.webp" alt="Electronics">
+                        <li class="nav-item dropdown no-bullets">
+                            <a class="sec-nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home & Furnitures</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                                <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                                <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                                <li><a class="dropdown-item" href="#"> Download App</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="p-2 nav-item-container">
+                    <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_5e01c5bc-5c75-47ee-90b2-6529441a32e8_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">
+                        <img class="imgfash4" src="img/Applicances.webp" alt="Applicances">
+                    </a>
+                    <h6 class="text-black text-center">Applicances</h6>
+                </div>
+            
+                <div class="p-2 nav-item-container">
+                    <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_5e01c5bc-5c75-47ee-90b2-6529441a32e8_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">
+                        <img class="imgfash5" src="img/Travel.webp" alt="Travel">
+                    </a>
+                    <h6 class="text-black text-center">Travel</h6>
+                </div>
+
+                <div class="p-2">
+                    <div class="align-center">
+                        <img class="imgfash6" src="img/Beauty, Toys & More.webp" alt="Electronics">
+                        <li class="nav-item dropdown no-bullets">
+                            <a class="sec-nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Beauty, Toys & More</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                                <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                                <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                                <li><a class="dropdown-item" href="#"> Download App</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="align-center">
+                        <img class="imgfash7" src="img/Two Wheelers.webp" alt="Electronics">
+                        <li class="nav-item dropdown no-bullets">
+                            <a class="sec-nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Two Wheelers</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"> Notification Preferences</a></li>
+                                <li><a class="dropdown-item" href="#"> 24x7 Customer Care</a></li>
+                                <li><a class="dropdown-item" href="#"> Advertise</a></li>
+                                <li><a class="dropdown-item" href="#"> Download App</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                <div class="p-2 text-white" style="margin-right: 60px;">Flex item 3</div>
+            </div>
+        </div>
+    
+        <!-- Main Carousel -->
+        <div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner1.jpg" class="d-block w-100" alt="banner1">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner2.webp" class="d-block w-100" alt="banner2">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner3.webp" class="d-block w-100" alt="banner3">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner4.webp" class="d-block w-100" alt="banner4">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner5.webp" class="d-block w-100" alt="banner5">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner6.webp" class="d-block w-100" alt="banner6">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1" target="_blank">
+                        <img src="slider_image/banner7.webp" class="d-block w-100" alt="banner7">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Product Second Carousel -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Advertisement Section -->
+                <div class="col-2 col-md-1 col-lg-2 colb mt-3 mb-1 pb-2">
+                    <img src="img/advertisement home 1.png" alt="Ad" class="img-fluid" style="margin-left: 0px; margin-bottom: 40px; padding-bottom: 0px;">
+                </div>
+                
+                <!-- Second Carousel Section -->
+                <div class="col-8 col-md-10 col-lg-8 cola mb-1">
+                    <div class="pcar text-center mt-3 rounded rounded-2">
+                        <div class="container">
+                            <div class="row row-col-1 bg-primary text-white">
+                                <div class="col-12 pt-1 pb-1 rounded rounded-2" style="font-size: 18px; font-weight: bold;">
+                                    Best of Electronics
+                                </div>
+                            </div>
+                            <div class="row bg-primary">
+                                <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                    <div class="carousel-inner">
+                                        <!-- Carousel Item 1 -->
+                                        <div class="card carousel-item active cardcaro mb-3">
+                                            <div class="card-body">
+                                                <img src="img/smart watches.jpg" class="card-img-top" alt="..." height="100px">
+                                                <h5 class="card-title">Smart Watches</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">₹ 300</h6>
+                                                <p class="d-inline-block gap-3">
+                                                    <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                                        Details
+                                                    </a>
+                                                </p>
+                                                <div class="collapse" id="collapseExample1">
+                                                    <div class="card card-body text-start">
+                                                        <h6>Health and Fitness Tracking:</h6>
+                                                        <ul>
+                                                            <li><b>Heart Rate Monitoring:</b> Continuous tracking of heart rate during various activities.</li>
+                                                            <li><b>Activity Tracking:</b> Tracks steps, distance, calories burned, and various workouts.</li>
+                                                            <li><b>Sleep Monitoring:</b> Analyzes sleep patterns and quality.</li>
+                                                        </ul>
+                                                        <h6>Connectivity and Notifications:</h6>
+                                                        <ul>
+                                                            <li><b>Smartphone Integration:</b> Syncs with smartphones for call, text, email, and app notifications.</li>
+                                                            <li><b>Bluetooth and Wi-Fi:</b> For seamless connectivity and data syncing.</li>
+                                                        </ul>
+                                                        <h6>Design and Customization:</h6>
+                                                        <ul>
+                                                            <li><b>Display:</b> High-resolution touchscreens, often AMOLED or OLED, for vibrant colors.</li>
+                                                            <li><b>Interchangeable Bands:</b> Customizable with various styles and materials.</li>
+                                                            <li><b>Battery Life:</b> Typically ranges from 1-7 days, Fast Charging support quick charging for convenience.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <!-- Carousel Item 2 -->
+                                        <div class="card carousel-item cardcaro mb-3">
+                                            <div class="card-body">
+                                                <img src="img/Electronics.webp" class="card-img-top" alt="..." height="100px">
+                                                <h5 class="card-title">Laptop</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">₹ 3500</h6>
+                                                <p class="d-inline-block gap-3">
+                                                    <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                                        Details
+                                                    </a>
+                                                </p>
+                                                <div class="collapse" id="collapseExample2">
+                                                    <div class="card card-body text-start">
+                                                        <h6 class="">Performance and Processing Power:</h6>
+                                                        <ul>
+                                                            <li><b>CPU:</b> Intel Core i5/i7/i9 or AMD Ryzen 5/7/9 for multitasking, gaming, and professional use.</li>
+                                                            <li><b>RAM:</b> Standard 8GB, with high-end models offering 16GB, 32GB, or more for smooth multitasking.</li>
+                                                        </ul>
+                                                        <h6>Display Quality:</h6>
+                                                        <ul>
+                                                            <li><b>Resolution:</b> Full HD (1920x1080) is common, with premium models featuring 4K UHD (3840x2160).</li>
+                                                            <li><b>Panel Type:</b> IPS panels for color accuracy and viewing angles, some with OLED screens for deeper blacks.</li>
+                                                        </ul>
+                                                        <h6>Storage, Battery & Connectivity:</h6>
+                                                        <ul>
+                                                            <li><b>Ports:</b> Includes USB Type-C, USB 3.0, HDMI, and Thunderbolt 3/4.</li>
+                                                            <li><b>SSD:</b> Standard for faster boot times and file access compared to HDDs.</li>
+                                                            <li><b>Battery Life:</b> Ranges from 8 to 12 hours, suitable for all-day use.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <!-- Carousel Item 3 -->
+                                        <div class="card carousel-item cardcaro mb-3">
+                                            <div class="card-body">
+                                            <img src="img/airpods-pro-2022.webp" class="card-img-top" alt="..." height="100px">
+                                            <h5 class="card-title">Apple Airpod</h5>
+                                            <h6 class="card-subtitle mb-2 text-body-secondary">₹ 550</h6>
+                                            <p class="d-inline-block gap-3">
+                                                <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                                Details
+                                                </a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample3">
+                                                <div class="card card-body text-start">
+                                                    <h6>Seamless Connectivity:</h6>
+                                                    <ul> 
+                                                    <li><b>Automatic Pairing:</b> Easy setup with Apple devices using the H1 or W1 chip for quick pairing and switching between devices.</li>
+                                                    <li><b>Bluetooth:</b> Supports Bluetooth 5.0 for a stable and efficient wireless connection.</li>
+                                                    </ul>
+                                                    <h6>Audio Quality:</h6>
+                                                    <ul>
+                                                    <li><b>HighFidelity Sound:</b> Delivers rich, highquality audio with deep bass and clear mids and highs.</li>
+                                                    <li><b>Active Noise Cancellation:</b> Available in AirPods Pro, providing immersive sound by blocking out external noise.</li>
+                                                    </ul>
+                                                    <h6>Battery Life:</h6>
+                                                    <ul>
+                                                    <li><b>LongLasting:</b> Up to 5 hours of listening time on a single charge, with the charging case providing multiple additional charges for a total of 24 hours of listening time.</li>
+                                                    <li><b>Voice Control:</b> Fast charging capabilities, with around 15 minutes of charge offering up to 3 hours of use.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Carousel Item 4 -->
+                                        <div class="card carousel-item cardcaro mb-3">
+                                            <div class="card-body">
+                                                <img src="img/Marshall speaker.jpeg" class="card-img-top" alt="..." height="100px">
+                                                <h5 class="card-title">Marshall Speaker</h5>
+                                                <h6 class="card-subtitle mb-2 text-body-secondary">₹ 11500</h6>
+                                                <p class="d-inline-block gap-3">
+                                                    <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                                        Details
+                                                    </a>
+                                                </p>
+                                                <div class="collapse" id="collapseExample3">
+                                                    <div class="card card-body text-start">
+                                                        <h6>Superior Sound Quality:</h6>
+                                                        <ul>
+                                                            <li><b>Audio Performance:</b> Known for rich, balanced sound with powerful bass and clear highs.</li>
+                                                            <li><b>Amplification:</b> Features high-quality built-in amplifiers for enhanced audio clarity.</li>
+                                                        </ul>
+                                                        <h6>Classic Design & Connectivity Options:</h6>
+                                                        <ul>
+                                                            <li><b>Vintage Look:</b> Iconic design inspired by Marshall's classic amplifiers, with a retro aesthetic and sturdy build.</li>
+                                                            <li><b>Materials:</b> Uses premium materials like vinyl casing and brass accents.</li>
+                                                            <li><b>Wired & Wireless:</b> Supports Bluetooth for easy wireless streaming & Includes inputs for 3.5mm audio jack and RCA for versatile connectivity.</li>
+                                                        </ul>
+                                                        <h6>Smart Features:</h6>
+                                                        <ul>
+                                                            <li><b>Multi-Room Functionality:</b> Some models support multi-room setups for synchronized playback across different rooms.</li>
+                                                            <li><b>Voice Control:</b> Integration with voice assistants like Alexa for hands-free control.</li>
+                                                            <li><b>App Control:</b> Customizable sound settings and firmware updates via the Marshall Bluetooth app.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <!-- Add additional carousel items as needed -->
+                                    </div>
+    
+                                    <button class="carousel-control-prev" style="width: 40px;" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" style="width: 40px;" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Advertisement Section -->
+                <div class="col-2 col-md-1 col-lg-2 colb mt-3 mb-1 pb-2">
+                    <img src="img/advertisement home.png" alt="Ad" class="img-fluid" style=" margin-bottom: 40px; padding-bottom: 0px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Dry Fruits -->
+        <div class="container-xxl" style="margin-top: -40px; position: relative; right: 0; left: 0; margin-left: 0px;">
+            <!-- Heading -->
+            <div class="col-12 bg-primary text-center text-white pt-1 pb-1 rounded rounded-2" style="font-size: 18px; font-weight: bold;">Dry Fruits & Seeds</div>
+            
+            <!-- Products -->
+            <div id="multiItemCarousel" class="carousel slide bg-secondary-emphasis" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <!-- First List of Carousel items -->
+                    <div class="carousel-item active">
+                        <div class="col-md-12 d-flex flex-row justify-content-center">
+                            
+                            <!-- Product 1 - 1 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/dry figs images.jpeg" class="card-img-top float-start" style="width: 100%; height: 200px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><b>Dry Fig</b></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 430 / Up to 45% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                        See More
+                                    </button>
+  
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #956045;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel1">Premium Dry Fig Fruits</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                        
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start" style="text-decoration-line: none;">
+                                                <h6><b>Happio Premium Dried Fig Manufacturer</b></h6>
+                                                <h6>Figs are one of the earliest fruits cultivated by man. Native to areas from Asiatic Turkey to Northern India, figs spread to all the countries around the Mediterranean.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 430</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 45% Off</i></p>
+                                                </div> 
+
+                                                <h6><b>Origin:</b> Selected from the finest fig orchards.</h6>
+                                                <h6><b>Nutritional Value (per 100g):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 249 kcal | <b>Protein:</b> 3.3g | <b>Carbohydrates:</b> 63.9g | <b>Fat:</b> 1g | <b>Fiber:</b> 9.8g</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Rich in Fiber:</b> Helps in digestion and promotes gut health.</li>
+                                                    <li><b>Antioxidant-Rich:</b> Supports immune function and fights free radicals.</li>
+                                                    <li><b>Mineral-Rich:</b> Contains essential minerals like potassium, calcium, and iron.</li>
+                                                </ul>
+                                                <h6><b>Usage:</b></h6>
+                                                <ul>
+                                                    <li>Ideal as a snack on its own | Perfect addition to baked goods, salads, and granola.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Product 1 - 2 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/almond image.webp" class="card-img-top float-start" style="width: 100%; height: 200px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><b>Almond</b></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 600 / Up to 25% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        See More
+                                    </button>
+  
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #e59d52;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Almond Dry Fruits</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                       
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Blue Diamond Almonds Pvt Ltd</b></h6>
+                                                <h6><b>Origin:</b> Almonds originated in the western parts of Asia and China</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 600</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 25% Off</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Origin:</b> Almonds are a versatile and nutritious snack, perfect for healthy eating. They are rich in essential nutrients and offer numerous health benefits.</h6>
+                                                <h6><b>Nutritional Information (per 100 gm):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 579 kcal | <b>Protein:</b> 21.2 gm | <b>Fat:</b> 49.9 gm </li>
+                                                    <li><b>Monounsaturated Fat:</b> 31.6 gm | <b>Saturated Fat:</b> 3.7 gm | <b>Polyunsaturated Fat:</b> 12.2 gm</li>
+                                                    <li><b>Carbohydrates:</b> 21.6 gm | <b>Fiber:</b> 12.5 gm | <b>Sugars:</b> 4.4 gm</li>
+                                                </ul>
+                                                <b>Vitamins and Minerals:</b>
+                                                <b>Vitamin E:</b> 25.6 mg | <b>Magnesium:</b> 270 mg | <b>Calcium:</b> 269 mg | <b>Iron:</b> 3.7 mg | <b>Potassium:</b> 733 mg
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Heart Health:</b> High in monounsaturated fats and antioxidants, which support cardiovascular health.</li>
+                                                    <li><b>Weight Management:</b> High protein and fiber content promote satiety and help control appetite.</li>
+                                                    <li><b>Bone Health:</b> Rich in calcium and magnesium, essential for maintaining strong bones.</li>
+                                                    <li><b>Skin Health:</b> High levels of Vitamin E help protect skin from oxidative damage and maintain a healthy glow.</li>
+                                                    <li><b>Blood Sugar Control:</b> Low glycemic index and high fiber content help regulate blood sugar levels.</li>
+                                                </ul>
+                                                <h6><b>Product Uses:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy as a quick, healthy snack.</li>
+                                                    <li><b>Cooking and Baking:</b> Perfect for adding to salads, baking into desserts, or using as a crunchy topping for various dishes.</li>
+                                                    <li><b>Almond Milk:</b> Blend with water to create homemade almond milk, a dairyfree alternative.</li>
+                                                </ul>
+                                                <h6><b>Storage Tips:</b></h6>
+                                                <ul>
+                                                    <li><b>Shelf Life:</b> Store in an airtight container in a cool, dry place for up to 6 months.</li>
+                                                    <li><b>Refrigeration:</b> Extend freshness by storing in the refrigerator, where they can last up to a year.</li>
+                                                </ul>
+                                                <h6><b>Purchase Options:</b></h6>
+                                                <ul>
+                                                    <li><b>Packaging:</b> Available in 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Varieties:</b> Choose from raw, roasted, salted, or flavored options to suit your taste preferences.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 1 - 3 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/cashew nut image.jpeg" class="card-img-top float-start" style="width: 100%; height: 200px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Cashew Nuts</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 740 / Up to 30% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #d5b67c;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Dry Cashew Nuts</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>SS Cashews Manufactuer Pvt Ltd</b></h6>
+                                                <h6><b>Origin:</b> Cashews are a versatile and nutritious snack, perfect for healthy eating. They are rich in essential nutrients and offer numerous health benefits.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 600</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 30% Off</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Cashew nuts are a popular snack and ingredient known for their rich flavor and numerous health benefits. They are a versatile addition to both sweet and savory dishes.</h6>
+                                                <h6><b>Nutritional Value (Per 100 gm):</b></h6>
+                                                <ul>
+                                                    <li><b>Fat:</b> 44 gm | <b>Saturated Fat:</b> 8 gm | <b>Monounsaturated Fat:</b> 24 gm | <b>Polyunsaturated Fat:</b> 8 gm</li>
+                                                    <li><b>Carbohydrates:</b> 30 gm | <b>Dietary Fiber:</b> 3 gm | <b>Sugars:</b> 6 gm</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Heart Health:</b> High in monounsaturated fats, which can help reduce bad cholesterol levels and improve heart health.</li>
+                                                    <li><b>Weight Management:</b> Protein and healthy fats help keep you full and satisfied, aiding in weight management.</li>
+                                                    <li><b>Bone Health:</b> Rich in magnesium and phosphorus, essential for strong bones.</li>
+                                                    <li><b>Eye Health:</b> Contains antioxidants like lutein and zeaxanthin, which promote eye health.</li>
+                                                    <li><b>Blood Sugar Control:</b> Low glycemic index and high magnesium content help manage blood sugar levels.</li>
+                                                </ul>
+                                                <h6><b>Vitamins and Minerals:</b></h6>
+                                                <ul>
+                                                    <li><b>Vitamin E:</b> 0.9 mg | <b>Vitamin K:</b> 34.1 mg | <b>Vitamin B6:</b> 0.4 mg | <b>Folate:</b> 25 mg</li>
+                                                    <li><b>Magnesium:</b> 292 mg | <b>Zinc:</b> 5.8 mg | <b>Iron:</b> 6.7 mg | <b>Calories:</b> 553 kcal | <b>Protein:</b> 18 gm</li>
+                                                </ul>
+                                                <h6><b>Usage Tips:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy a handful of cashews as a nutritious snack.</li>
+                                                    <li><b>Cooking:</b> Add to stirfries, salads, and curries for extra crunch and flavor.</li>
+                                                    <li><b>Baking:</b> Use in cookies, cakes, and granola bars.</li>
+                                                    <li><b>Nut Butters:</b> Blend into a creamy nut butter for spreading on toast or using in recipes.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Product Varieties:</b></h6>
+                                                <ul>
+                                                    <li><b>Raw Cashew Nuts:</b> Ideal for cooking and baking.</li>
+                                                    <li><b>Roasted Cashew Nuts:</b> Perfect for snacking, available in salted and unsalted varieties.</li>
+                                                    <li><b>Flavored Cashew Nuts:</b> Available in a range of flavors such as honeyroasted, spicy, and chocolatecoated.</li>
+                                                    <li><b>Cashew Nut Butter:</b> Smooth and creamy, perfect for spreads and recipes.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 1 - 4 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/dates images.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Dates</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 840 / Up to 15% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #d58e8c;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Dry Dates</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Flyberry Dates Private Limited</b></h6>
+                                                <h6><b>Origin:</b> The date palm has been prized from remotest antiquity and may have originated in what is now Iraq.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 840</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 15% Off</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Experience the rich taste and numerous health benefits of our premium quality dry dates. Sourced from the best farms, our dates are perfect for snacking, cooking, and baking. Enjoy nature's sweetness in every bite!</h6>
+                                                <h6><b>Nutritional Value (Per 100 gm):</b></h6>
+                                                <ul>
+                                                    <li><b>Fat:</b> 44 gm | <b>Saturated Fat:</b> 8 gm | <b>Monounsaturated Fat:</b> 24 gm | <b>Polyunsaturated Fat:</b> 8 gm</li>
+                                                    <li><b>Carbohydrates:</b> 30 gm | <b>Dietary Fiber:</b> 3 gm | <b>Sugars:</b> 6 gm</li>
+                                                </ul>
+                                                <h6><b>Key Features:</b></h6>
+                                                <ul>
+                                                <li><b>100% Natural:</b> No added preservatives or artificial flavors.</li>
+                                                <li><b>NutrientRich:</b> Packed with essential vitamins and minerals.</li>
+                                                <li><b>Versatile Use:</b> Ideal for snacking, cooking, and baking.</li>
+                                                </ul>
+
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <h6><b>Rich in Fiber:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 7 grams of fiber per 100 grams of dates.</li>
+                                                    <li><b>Benefit:</b> Aids digestion and helps maintain a healthy gut.</li>
+                                                </ul>
+                                                <h6><b>High in Antioxidants:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> Contains flavonoids, carotenoids, and phenolic acid.</li>
+                                                    <li><b>Benefit:</b> Protects cells from free radicals and reduces inflammation.</li>
+                                                </ul>
+                                                <h6><b>Natural Energy Booster:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 277 calories per 100 grams.</li>
+                                                    <li><b>Benefit:</b> Provides a quick energy boost, perfect for preworkout snacks.</li>
+                                                </ul>
+                                                <h6><b>Rich in Essential Minerals:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 696 mg of potassium per 100 grams.</li>
+                                                    <li><b>Benefit:</b> Supports heart health and maintains blood pressure levels.</li>
+                                                    <li><b>Measurement:</b> 0.9 mg of iron per 100 grams.</li>
+                                                    <li><b>Benefit:</b> Helps in combating anemia and increases hemoglobin levels.</li>
+                                                </ul>
+                                                <h6><b>Good Source of Vitamins:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 2.7 micrograms of Vitamin K per 100 grams.</li>
+                                                    <li><b>Benefit:</b> Essential for blood clotting and bone health.</li>
+                                                    <li><b>Measurement:</b> Contains vitamins B6 and A.</li>
+                                                    <li><b>enefit:</b> Supports brain health and improves vision.</li>
+                                                </ul>
+                                                <h6><b>Product Details:</b></h6>
+                                                <ul>
+                                                    <li><b>Weight Options:</b> Available in 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Storage Instructions:</b> Keep in a cool, dry place. Refrigerate after opening to maintain freshness.</li>
+                                                    <li><b>Shelf Life:</b> Best before 12 months from packaging date.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 1 - 5 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/walnuts imagess.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Walnuts</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 799 / Up to 15% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #d17a20;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Dry Dates</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Nutty Yogi Private Limited</b></h6>
+                                                <h6><b>Origin:</b> Most historians consider Persia to be the origin of the walnut, but there is some dispute.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 799</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 15% Off</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Walnuts are nutrient-dense tree nuts known for their rich flavor and numerous health benefits. They are a versatile ingredient used in various culinary dishes and can also be enjoyed as a snack.</h6>
+                                                <h6><b>Nutritional Benefits of Walnuts:</b></h6>
+                                                <h6><b>Rich in Nutrients:</b></h6>
+                                                <ul>
+                                                <li><b>Calories:</b> 185 kcal per 1 oz (28 grams) | <b>Protein:</b> 4 grams per 1 oz (28 grams) | <b>Fat:</b> 18 grams per 1 oz (28 grams)</li>
+                                                <li><b>Carbohydrates:</b> 4 grams per 1 oz (28 grams) | <b>Fiber:</b> 2 grams per 1 oz (28 grams)</b></li>
+                                                </ul>
+                                                <h6><b>Packed with Antioxidants:</b></h6>
+                                                <ul>
+                                                <li><b>Polyphenols:</b> Walnuts are loaded with polyphenols, which help combat oxidative stress.</b></li>
+                                                <li><b>Vitamin E:</b> 0.7 mg per 1 oz (28 grams), contributing to overall antioxidant capacity.</b></li>
+                                                </ul>
+                                                <h6><b>Heart Health:</b></h6>
+                                                <ul>
+                                                <li><b>Omega3 Fatty Acids:</b> 2.5 grams of alphalinolenic acid (ALA) per 1 oz (28 grams), which is essential for heart health.</b></li>
+                                                <li><b>Larginine:</b> An amino acid that supports vascular health and reduces the risk of heart disease.</b></li>
+                                                </ul>
+                                                <h6><b>Supports Brain Health:</b></h6>
+                                                <ul>
+                                                <li><b>Vitamin B6:</b> 0.2 mg per 1 oz (28 grams), important for brain health and cognitive function.</b></li>
+                                                <li><b>Folate:</b> 27.0 mcg per 1 oz (28 grams), supporting overall brain function and mood regulation.</b></li>
+                                                </ul>
+                                                <h6><b>Bone Health:</b></h6>
+                                                <ul>
+                                                <li><b>Magnesium:</b> 45 mg per 1 oz (28 grams), crucial for maintaining bone density and structure.</b></li>
+                                                <li><b>Phosphorus:</b> 98 mg per 1 oz (28 grams), vital for bone and teeth health.</b></li>
+                                                </ul>
+                                                <h6><b>Weight Management:</b></h6>
+                                                <ul>
+                                                <li><b>Satiety:</b> High in healthy fats and protein, walnuts help increase feelings of fullness, potentially aiding in weight management.</b></li>
+                                                <li><b>Metabolism Boost:</b> The combination of protein, fiber, and healthy fats supports a healthy metabolism.</b></li>
+                                                </ul>
+                                                <h6><b>Skin and Hair Health:</b></h6>
+                                                <ul>
+                                                <li><b>Biotin (Vitamin B7):</b> 1.3 mcg per 1 oz (28 grams), which promotes healthy skin and hair.</b></li>
+                                                <li><b>Copper:</b> 0.45 mg per 1 oz (28 grams), essential for maintaining healthy hair and skin pigmentation.</b></li>
+                                                </ul>
+                                                <h6><b>Culinary Uses:</b></h6>
+                                                <ul>
+                                                <li><b>Versatile Ingredient:</b> Perfect for snacking, baking, cooking, and adding to salads or smoothies.</b></li>
+                                                <li><b>Texture and Flavor:</b> Adds a rich, crunchy texture and a slightly sweet, nutty flavor to various dishes.</b></li>
+                                                </ul>
+                                                <h6><b>Product Details:</b></h6>
+                                                <ul>
+                                                    <li><b>Weight Options:</b> Available in 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Storage Instructions:</b> Keep in a cool, dry place. Refrigerate after opening to maintain freshness.</li>
+                                                    <li><b>Shelf Life:</b> Best before 12 months from packaging date.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 1 - 6 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/pistachio images.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Pistachio</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 569 / Up to 25% Off</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #bbe26c;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Pistachio</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6>Setton Pistachio of Terra Bella, Inc.</h6>
+                                                <h6><b>Origin:</b> The original homelands of the pistachio were Asia Minor (now Turkey), Iran, Syria, Lebanon, and a bit north to the Caucasus in southern Russia and Afghanistan.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 569</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>Up to 25% Off</i></p>
+                                                </div>
+                                                <h6><b>Overview:</b> Pistachio are nutrient-dense tree nuts known for their rich flavor and numerous health benefits. They are a versatile ingredient used in various culinary dishes and can also be enjoyed as a snack.</h6>
+                                                <h6><b>Key Features:</b></h6>
+                                                <h6><b>Rich in Nutrients:</b></h6>
+                                                <ul>
+                                                    <li><b>Protein:</b> Approximately 6g per 28g (1 ounce) serving</li>
+                                                    <li><b>Fiber:</b> Around 3g per serving</li>
+                                                    <li><b>Healthy Fats:</b> Contains monounsaturated and polyunsaturated fats, promoting heart health</li>
+                                                </ul>
+                                                <h6><b>Vitamins and Minerals:</b></h6>
+                                                <ul>
+                                                    <li><b>Vitamin B6:</b> 25% of the Daily Value (DV) per serving</li>
+                                                    <li><b>Thiamine:</b> 20% of the DV per serving</li>
+                                                    <li><b>Copper:</b> 20% of the DV per serving</li>
+                                                    <li><b>Phosphorus:</b> 15% of the DV per serving</li>
+                                                    <li><b>Manganese:</b> 17% of the DV per serving</li>
+                                                </ul>
+                                                <h6><b>Antioxidants:</b></h6>
+                                                <ul>
+                                                    <li>High in antioxidants such as lutein and zeaxanthin, which support eye health</li>
+                                                    <li>Contains polyphenols that help combat oxidative stress</li>
+                                                </ul>
+                                                <h6><b>Heart Health:</b></h6>
+                                                <ul>
+                                                    <li><b>CholesterolFree:</b> Helps maintain healthy cholesterol levels</li>
+                                                    <li><b>Potassium:</b> 290mg per serving, aiding in blood pressure regulation</li>
+                                                    <li><b>Low in Sodium:</b> Less than 2mg per serving</li>
+                                                </ul>
+                                                <h6><b>Weight Management:</b></h6>
+                                                <ul>
+                                                    <li>Low in calories with just 159 calories per 28g serving</li>
+                                                    <li>Promotes satiety, reducing overall calorie intake</li>
+                                                </ul>
+                                                <h6><b>Culinary Uses:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy as a healthy, onthego snack</li>
+                                                    <li><b>Cooking:</b> Add to salads, yogurts, and desserts for a crunchy texture</li>
+                                                    <li><b>Baking:</b> Enhance the flavor of your cookies, cakes, and bread</li>
+                                                </ul>
+                                                <h6><b>Storage Instructions:</b></h6>
+                                                <ul>
+                                                    <li><b>Shelf Life:</b> Up to 6 months if stored in a cool, dry place</li>
+                                                    <li><b>Refrigeration:</b> Extend freshness by storing in the refrigerator for up to a year</li>
+                                                    <li><b>Freezing:</b> Can be stored in the freezer for up to 2 years</li>
+                                                </ul>
+                                                <h6><b>Packaging:</b></h6>
+                                                <ul>
+                                                    <li><b>EcoFriendly Packaging:</b> Made from recyclable materials</li>
+                                                    <li><b>Resealable Bags:</b> Keeps pistachios fresh and crunchy</li>
+                                                </ul>
+                                                <h6><b>Customer Reviews:</b></h6>
+                                                <ul>
+                                                    <li><b>Rated 4.8/5:</b> Based on 500+ reviews</li>
+                                                    <li><b>Top Feedback:</b> "Delicious and fresh," "Perfect for healthy snacking," "Great value for money"</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Second List of Carousel Items -->
+                    <div class="carousel-item">
+                        <div class="col-md-12 d-flex flex-row justify-content-center">
+                            
+                            <!-- Product 2 - 1 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/pink pepper.jpeg" class="card-img-top float-start" style="width: 100%; height: 200px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><b>Pink Pepper Seeds</b></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 754 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                                        See More
+                                    </button>
+  
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #f65d73;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel1">Pink Pepper Seeds</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                        
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start" style="text-decoration-line: none;">
+                                                <h6><b>Happio Dried Pepper Manufacturer Pvt Ltd</b></h6>
+                                                <h6><b>Origin:</b> Pink pepper belongs to the Anacardiacee family and is a native to Peru and Chile.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 754</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>/ per Kgs</i></p>
+                                                </div> 
+
+                                                <h6><b>Overview:</b> Pink pepper, also known as pink peppercorn, is the dried berry of the Brazilian pepper tree (Schinus terebinthifolius) or the Peruvian pepper tree (Schinus molle). Pink pepper, also known as pink peppercorn, is a spice derived from the berries of the Peruvian pepper tree (Schinus molle) or the Brazilian pepper tree (Schinus terebinthifolia). These vibrant, rosy-hued berries add a unique, peppery flavor with a hint of sweetness to a variety of dishes.</h6>
+                                                <h6><b>Flavor Profile and Uses:</b></h6>
+                                                <ul>
+                                                    <li><b>Flavor:</b> Mildly sweet and fruity with a light peppery heat.</li>
+                                                    <li><b>Uses:</b> Ideal for seasoning fish, poultry, salads, sauces, and desserts. Can be used whole, crushed, or ground.</li>
+                                                </ul>
+                                                <h6><b>Nutritional Information (per 1 tablespoon, ~7g):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 20 | <b>Protein:</b> 0.6g | <b>Fat:</b> 0.9g | <b>Saturated Fat:</b> 0.1g | <b>Carbohydrates:</b> 3.2g | <b>Fiber:</b> 0.9g | <b>Sugars:</b> 0.3g</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Antioxidant Properties:</b> Rich in antioxidants that help combat oxidative stress.</li>
+                                                    <li><b>Antiinflammatory:</b> Contains compounds that can help reduce inflammation.</li>
+                                                    <li><b>Digestive Aid:</b> Known to aid digestion and improve appetite.</li>
+                                                </ul>
+                                                <h6><b>Storage:</b></h6>
+                                                <ul>
+                                                    <li><b>Shelf Life:</b> Up to 2 years when stored in a cool, dry place.</li>
+                                                    <li><b>Storage Tips:</b> Keep in an airtight container away from direct sunlight and moisture.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li><b>Available Sizes:</b> 50g, 100g, 250g, 500g, and 1kg packages.</li>
+                                                    <li><b>Packaging Type:</b> Comes in resealable pouches to maintain freshness and aroma.</li>
+                                                </ul>
+                                                <h6><b>Certifications and Quality:</b></h6>
+                                                <ul>
+                                                    <li><b>Organic:</b> Certified organic and free from pesticides.</li>
+                                                    <li><b>NonGMO:</b> Verified nonGMO product.</li>
+                                                    <li><b>Fair Trade:</b> Sourced from fair trade farms ensuring ethical practices.</li>
+                                                </ul>
+                                                <h6><b>Culinary Tips:</b></h6>
+                                                <ul>
+                                                    <li><b>Enhancing Flavors:</b> Crush pink peppercorns just before use to release their full flavor.</li>
+                                                    <li><b>Pairing:</b> Pairs well with seafood, creamy cheeses, citrus fruits, and chocolates.</li>
+                                                    <li><b>Garnishing:</b> Adds a visually appealing touch to dishes with its vibrant color.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Product 2 - 2 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/apricot image.jpg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><b>Apricot</b></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 643 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                                        See More
+                                    </button>
+  
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #e64a16;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Apricot Fruits</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                       
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Golden Apricot Pvt Ltd</b></h6>
+                                                <h6><b>Origin:</b> The Apricot was originally domesticated in China but is now cultivated on every continent except Antarctica. Archaeological evidence shows that apricots were eaten in ancient Armenia.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 643</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>/ per Kgs</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Almonds originated in the western parts of Asia and China</h6>
+                                                <h6><b>Nutritional Benefits:</b></h6>
+                                                <h6><b>Rich in Vitamins:</b></h6>
+                                                <ul>
+                                                    <li><b>Vitamin A:</b> 96 microgm per 100 gm (12% DV) | Vitamin C: 10 milligm per 100 gm (11% DV)</li>
+                                                </ul>
+                                                <h6><b>Mineral Content:</b></h6>
+                                                <ul>
+                                                    <li><b>Potassium:</b> 259 milligm per 100 gm (7% DV) | Magnesium: 10 milligm per 100 gm (2% DV) | Fiber: 2 gm per 100 gm (7% DV) | Low in Calories: Approximately 48 calories per 100 gm.</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Eye Health:</b> High in vitamin A and betacarotene, promoting good vision.</li>
+                                                    <li><b>Skin Health:</b> Contains antioxidants like vitamin C and E, which help maintain healthy skin.</li>
+                                                    <li><b>Digestive Health:</b> Dietary fiber aids in digestion and prevents constipation.</li>
+                                                    <li><b>Heart Health:</b> Potassium helps maintain healthy blood pressure levels.</li>
+                                                </ul>
+                                                <h6><b>Culinary Uses:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy dried or fresh apricots as a healthy snack.</li>
+                                                    <li><b>Cooking:</b> Use in baking, desserts, salads, and savory dishes for a sweet and tangy flavor.</li>
+                                                    <li><b>Preserves:</b> Ideal for making jams, jellies, and sauces.</li>
+                                                </ul>
+                                                <h6><b>Storage Tips:</b></h6>
+                                                <ul>
+                                                    <li><b>Fresh Apricots:</b> Store in a cool, dry place or refrigerate to extend freshness.</li>
+                                                    <li><b>Dried Apricots:</b> Keep in an airtight container in a cool, dark place to maintain quality.</li>
+                                                </ul>
+                                                <h6><b>Product Details:</b></h6>
+                                                <ul>
+                                                    <li><b>Origin:</b> Sourced from the finest orchards.</li>
+                                                    <li><b>Packaging:</b> Available in various sizes – 100g, 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Quality Assurance:</b> Premium grade, handpicked, and minimally processed to retain natural flavor and nutrients.</li>
+                                                </ul>
+                                                <h6><b>Buying Guide:</b></h6>
+                                                <ul>
+                                                    <li><b>Select Fresh Apricots:</b> Look for firm, plump apricots with a vibrant orange color.</li>
+                                                    <li><b>For Dried Apricots:</b> Opt for ones that are soft and slightly moist without excessive sugar coating.</li>
+                                                </ul>
+                                                <h6><b>Purchase Options:</b></h6>
+                                                <ul>
+                                                    <li><b>Packaging:</b> Available in 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Varieties:</b> Choose from raw, roasted, salted, or flavored options to suit your taste preferences.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 2 - 3 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/ground nuts images.jpeg" class="card-img-top float-start" style="width: 100%; height: 200px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Ground Nuts</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 1143 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #e4b39f;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Ground Nuts</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>SS Groundnutz Manufacturer Pvt Ltd</b></h6>
+                                                <h6>The credit for the introduction of groundnut into India goes to Spaniards. It reached eastern Asia from South America and from there came to India on the east coast of Tamil Nadu and Andhra Pradesh by Spaniards.
+                                                </h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 1143</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>/ per Kgs</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Ground nuts, commonly known as peanuts, are a popular and nutritious legume enjoyed globally. They are rich in essential nutrients, making them a valuable addition to any diet.</h6>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>High Protein Content:</b> Each 100 gm of peanuts provides approximately 25 gm of protein, supporting muscle growth and repair.</b></li>
+                                                    <li><b>Rich in Healthy Fats:</b> Contains around 49 gm of healthy fats per 100 gm, including monounsaturated and polyunsaturated fats, which are beneficial for heart health.</b></li>
+                                                    <li><b>Vitamin E:</b> Offers about 8 milligm of Vitamin E per 100 gm, an antioxidant that helps protect cells from damage.</b></li>
+                                                    <li><b>Magnesium:</b> Provides 168 milligm of magnesium per 100 gm, essential for muscle function and energy production.</b></li>
+                                                    <li><b>Dietary Fiber:</b> Each 100 gm contains 8 gm of dietary fiber, aiding in digestion and promoting a healthy gut.</b></li>
+                                                </ul>
+                                                <h6><b>Nutritional Information (Per 100 gm):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 567 kcal | <b>Carbohydrates:</b> 16 gm | <b>Fiber:</b> 8 gm | <b>Sugars:</b> 4 gm | <b>Protein:</b> 25 gm</b></li>
+                                                    <li><b>Total Fat:</b> 49 gm | <b>Saturated Fat:</b> 7 gm | <b>Monounsaturated Fat:</b> 24 gm | <b>Polyunsaturated Fat:</b> 15 gm</b></li>
+                                                </ul>
+                                                <h6><b>Vitamins and Minerals:</b></h6>
+                                                <ul>
+                                                    <li><b>Vitamin E:</b> 8 mg</b></li>
+                                                    <li><b>Magnesium:</b> 168 mg</b></li>
+                                                    <li><b>Potassium:</b> 705 mg</b></li>
+                                                    <li><b>Phosphorus:</b> 376 mg</b></li>
+                                                </ul>
+                                                <h6><b>Usage Suggestions:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy roasted or salted peanuts as a healthy and satisfying snack.</b></li>
+                                                    <li><b>Cooking:</b> Use ground nuts in various recipes, including sauces, curries, and stirfries, to enhance flavor and add a crunchy texture.</b></li>
+                                                    <li><b>Baking:</b> Incorporate peanuts into baked goods such as cookies, cakes, and breads for added nutrition and taste.</b></li>
+                                                    <li><b>Peanut Butter:</b> Make homemade peanut butter by blending roasted peanuts, a delicious spread for sandwiches and smoothies.</b></li>
+                                                </ul>
+                                                <h6><b>Storage Instructions:</b></h6>
+                                                <ul>
+                                                    <li><b>Cool and Dry Place:</b> Store ground nuts in an airtight container in a cool, dry place to maintain freshness.</b></li>
+                                                    <li><b>Refrigeration:</b> For extended shelf life, refrigerate peanuts to prevent spoilage and maintain quality.</b></li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Product Varieties:</b></h6>
+                                                <ul>
+                                                    <li><b>Raw Ground Nuts:</b> Ideal for cooking and baking.</li>
+                                                    <li><b>Roasted Ground Nuts:</b> Perfect for snacking, available in salted and unsalted varieties.</li>
+                                                    <li><b>Flavored Ground Nuts:</b> Available in a range of flavors such as honeyroasted, spicy, and chocolatecoated.</li>
+                                                    <li><b>Ground Nut Butter:</b> Smooth and creamy, perfect for spreads and recipes.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 2 - 4 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/black raisins image.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Black Raisins</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 340 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #99a2b9;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Black Raisins</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Sun Raisins Private Limited</b></h6>
+                                                <h6><b>Origin:</b> Raisin grapes were grown as early as 2000 bce in Persia and Egypt.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 340</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i>/ per Kgs</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Black raisins are dried grapes that are dark in color and packed with nutrients. They are a popular choice for snacking and are often used in baking, cooking, and garnishing dishes. Known for their sweet flavor and chewy texture, black raisins are a healthy and delicious addition to your diet.</h6>
+                                                <h6><b>Key Points:</b></h6>
+                                                <h6><b>Nutritional Value (per 100 grams):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 299 kcal</li>
+                                                    <li><b>Carbohydrates:</b> 79 grams</li>
+                                                    <li><b>Sugars:</b> 59 grams</li>
+                                                    <li><b>Dietary Fiber:</b> 3.7 grams</li>
+                                                    <li><b>Protein:</b> 3.1 grams</li>
+                                                    <li><b>Fat:</b> 0.5 grams</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Rich in Antioxidants:</b> Black raisins contain high levels of antioxidants, which help protect the body against free radicals and reduce the risk of chronic diseases.</li>
+                                                    <li><b>Improves Digestion:</b> The dietary fiber in black raisins aids in digestion and helps prevent constipation.</li>
+                                                    <li><b>Boosts Iron Levels:</b> A good source of iron, black raisins can help prevent anemia and boost overall energy levels.</li>
+                                                    <li><b>Promotes Heart Health:</b> The potassium in black raisins helps regulate blood pressure and supports heart health.</li>
+                                                    <li><b>Supports Bone Health:</b> Black raisins are rich in calcium, which is essential for maintaining strong bones and teeth.</li>
+                                                </ul>
+                                                <h6><b>Usage and Serving Suggestions:</b></h6>
+                                                <ul>
+                                                    <li><b>Snacking:</b> Enjoy black raisins as a healthy snack on their own or mixed with nuts.</li>
+                                                    <li><b>Baking:</b> Use black raisins in cookies, cakes, bread, and muffins for added sweetness and texture.</li>
+                                                    <li><b>Cooking:</b> Add to savory dishes such as rice pilafs, salads, and stews for a touch of natural sweetness.</li>
+                                                    <li><b>Garnishing:</b> Sprinkle black raisins over yogurt, oatmeal, or cereal for a nutritious breakfast.</li>
+                                                </ul>
+                                                <h6><b>Storage:</b></h6>
+                                                <ul>
+                                                    <li><b>Shelf Life:</b> Black raisins have a long shelf life of up to 12 months when stored properly.</li>
+                                                    <li><b>Storage Tips:</b> Keep in a cool, dry place in an airtight container. Refrigeration is recommended to extend freshness.</li>
+                                                </ul>
+                                                <h6><b>Product Information:</b></h6>
+                                                <ul>
+                                                    <li><b>Available Sizes:</b> 100g, 250g, 500g, and 1kg packs</li>
+                                                    <li><b>Packaging:</b> Comes in resealable pouches to maintain freshness and convenience.</li>
+                                                    <li><b>Quality Assurance:</b> Sourced from premium quality grapes and processed under hygienic conditions to ensure the best quality product.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 2 - 5 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/dry rosemary leaves image.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Dry Rosemary Leaves</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 842 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #e8c393;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Dry Rosemary Leaves</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>PLB Rosemany Oil Private Limited</b></h6>
+                                                <h6><b>Origin:</b> Rosemary (Rosemarinus officinalis) is an aromatic, perennial evergreen shrub in the mint family (Labiatae) native to the hills along the Mediterranean, Portugal, and northwestern Spain.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 842</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i> / per Kgs</i></p>
+                                                </div>                                                                                              
+                                                
+                                                <h6><b>Overview:</b> Dried rosemary, a fragrant and flavorful herb, is not only a culinary delight but also a powerhouse of health benefits. Known for its rich antioxidant content, dried rosemary helps combat oxidative stress and supports overall wellness. Its anti-inflammatory properties make it an excellent addition to daily diets, aiding in reducing inflammation and promoting joint health.</h6>
+                                                <h6><b>Nutritional Information (per 1g serving):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 3 kcal</li>
+                                                    <li><b>Protein:</b> 0.03g</li>
+                                                    <li><b>Fat:</b> 0.1g</li>
+                                                    <li><b>Carbohydrates:</b> 0.5g</li>
+                                                    <li><b>Fiber:</b> 0.4g</li>
+                                                    <li><b>Vitamins and Minerals:</b> Contains small amounts of vitamin C, calcium, iron, and magnesium.</li>
+                                                </ul>
+                                                <h6><b>Rich in Antioxidants:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 1 teaspoon (1g) contains a high level of antioxidants.</li>
+                                                    <li><b>Benefit:</b> Helps combat oxidative stress and supports overall health.</li>
+                                                </ul>
+                                                <h6><b>Antiinflammatory Properties:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> Consuming 12 teaspoons (12g) daily can help reduce inflammation.</li>
+                                                    <li><b>Benefit:</b> Supports joint health and reduces symptoms of chronic inflammatory conditions.</li>
+                                                </ul>
+                                                <h6><b>Enhances Digestion:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 1 teaspoon (1g) added to meals can improve digestion.</li>
+                                                    <li><b>Benefit:</b> Helps in relieving indigestion, bloating, and gas.</li>
+                                                </ul>
+                                                <h6><b>Improves Memory and Concentration:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> Aromatherapy with a small amount (0.5g) can boost cognitive function.</li>
+                                                    <li><b>Benefit:</b> Enhances memory, alertness, and concentration.</li>
+                                                </ul>
+                                                <h6><b>Natural Preservative:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 1 teaspoon (1g) used in food preservation can extend shelf life.</li>
+                                                    <li><b>Benefit:</b> Keeps food fresh longer without the need for artificial preservatives.</li>
+                                                </ul>
+                                                <h6><b>Flavor Enhancer:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 12 teaspoons (12g) per dish can significantly enhance flavor.</li>
+                                                    <li><b>Benefit:</b> Adds a fragrant, pinelike aroma and a robust flavor to various dishes.</li>
+                                                </ul>
+                                                <h6><b>Supports Respiratory Health:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 1 teaspoon (1g) brewed in tea or used in steam inhalation.</li>
+                                                    <li><b>Benefit:</b> Helps alleviate respiratory issues like cough, cold, and congestion.</li>
+                                                </ul>
+                                                <h6><b>Skin Health:</b></h6>
+                                                <ul>
+                                                    <li><b>Measurement:</b> 1 teaspoon (1g) mixed with carrier oils for topical application.</li>
+                                                    <li><b>Benefit:</b> Promotes clear, healthy skin and reduces acne and blemishes.</li>
+                                                </ul>
+                                                <h6><b>Product Details:</b></h6>
+                                                <ul>
+                                                    <li><b>Weight Options:</b> Available in 250g, 500g, and 1kg packs.</li>
+                                                    <li><b>Storage Instructions:</b> Keep in a cool, dry place. Refrigerate after opening to maintain freshness.</li>
+                                                    <li><b>Shelf Life:</b> Best before 12 months from packaging date.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Product 2 - 6 -->
+                            <div class="card mt-2 mb-2 rounded rounded-3" style="width: 15%; height: 270px; margin-right: 10px;">
+                                <img src="img/black mustard seeds image.jpeg" class="card-img-top float-start" style="width: 100%; height: 130px;" alt="Dry Fruits">
+                                <div class="card-body float-end text-center">
+                                    <h6 class="card-title"><strong>Black Mustard Seeds</strong></h6>
+                                    <p class="card-text" style="font-weight: 500;">₹ 243 / per Kgs</p>
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                                        See More
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" style="max-width: 90%;">
+                                        <div class="modal-content">
+                                            <!-- Modal Header  -->
+                                            <div class="modal-header text-white" style="background-color: #7b5551;">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Black Mustard Seeds</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                                                                    
+                                            
+                                            <!-- Modal Body -->
+                                            <div class="modal-body text-start">
+                                                <h6><b>Oxygrow Agro Tech Pvt. Ltd.</b></h6>
+                                                <h6><b>Origin:</b>  It is native to cooler regions of North Africa, temperate regions of Europe, and parts of Asia.</h6>
+                                                <div class="d-flex align-items-center">
+                                                    <h5>₹ 243</h5>
+                                                    <p class="card-text" style="margin-left: 10px; margin-bottom: 5px;"><i> / per Kgs</i></p>
+                                                </div>
+                                                <h6><b>Overview:</b> Black mustard seeds are a versatile and pungent spice known for their robust flavor and numerous health benefits. Packed with essential nutrients, these tiny seeds are a powerhouse of antioxidants, omega-3 fatty acids, and dietary fiber. They play a significant role in various culinary traditions, enhancing the taste of dishes with their distinctive, spicy kick.</h6>
+                                                <h6><b>Key Points:</b></h6>
+                                                <h6><b>Nutritional Value (per 100g):</b></h6>
+                                                <ul>
+                                                    <li><b>Calories:</b> 508 kcal</li>
+                                                    <li><b>Protein:</b> 26.1 g</li>
+                                                    <li><b>Fat:</b> 36.2 g</li>
+                                                    <li><b>Carbohydrates:</b> 28.1 g</li>
+                                                    <li><b>Dietary Fiber:</b> 14.7 g</li>
+                                                </ul>
+                                                <h6><b>Health Benefits:</b></h6>
+                                                <ul>
+                                                    <li><b>Rich in Antioxidants:</b> Contains compounds like selenium and magnesium which help combat oxidative stress.</li>
+                                                    <li><b>Antiinflammatory Properties:</b> Helps reduce inflammation due to the presence of selenium.</li>
+                                                    <li><b>Digestive Aid:</b> Stimulates the production of gastric juices, aiding digestion.</li>
+                                                    <li><b>Cardiovascular Health:</b> Omega3 fatty acids help in reducing cholesterol levels and improving heart health.</li>
+                                                </ul>
+                                                <h6><b>Culinary Uses:</b></h6>
+                                                <ul>
+                                                    <li><b>Spice Blends:</b> Integral ingredient in various spice mixes such as panch phoron and curry powders.</li>
+                                                    <li><b>Flavoring Agent:</b> Adds a pungent flavor to dishes when tempered in oil.</li>
+                                                    <li><b>Pickling:</b> Used in pickling to enhance flavor and preservation.</li>
+                                                </ul>
+                                                <h6><b>Storage Instructions:</b></h6>
+                                                <ul>
+                                                    <li><b>Shelf Life:</b> Up to 1 year if stored properly.</li>
+                                                    <li><b>Storage Conditions:</b> Store in a cool, dry place away from direct sunlight. Ensure the container is airtight to retain freshness.</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li><b>Small Pack:</b> 100g</li>
+                                                    <li><b>Medium Pack:</b> 250g</li>
+                                                    <li><b>Large Pack:</b> 500g</li>
+                                                    <li><b>Bulk Pack:</b> 1kg</li>
+                                                </ul>
+                                                <h6><b>Product Highlights:</b></h6>
+                                                <ul>
+                                                    <li><b>100% Natural and Organic:</b> No additives or preservatives.</li>
+                                                    <li><b>Sourced from Trusted Farms:</b> Ensuring the highest quality and purity.</li>
+                                                    <li><b>Versatile Use:</b> Suitable for a variety of culinary applications.</li>
+                                                </ul>
+                                                <h6><b>Customer Reviews:</b></h6>
+                                                <ul>
+                                                    <li><b>User A:</b> "These black mustard seeds are of excellent quality. The flavor they add to my dishes is unmatched!"</li>
+                                                    <li><b>User B:</b> "Highly recommend these seeds for anyone who loves cooking with authentic spices."</li>
+                                                </ul>
+                                                <h6><b>Packaging Options:</b></h6>
+                                                <ul>
+                                                    <li>Available in resealable pouches to maintain freshness.</li>
+                                                    <li>Bulk quantities for wholesale and retail.</li>
+                                                </ul>
+                                                <h6><b>Certifications & Storage:</b></h6>
+                                                <ul>
+                                                    <li>Organic certification for purity and quality assurance | Store in a cool, dry place away from direct sunlight.</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Modal Footer --> 
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Add to Cart</button>
+                                                <button type="button" class="btn btn-primary">Buy</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+        
+                <button class="carousel-control-prev" style="width: 30px;" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" style="width: 30px;" type="button" data-bs-target="#multiItemCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        
+            </div>
+        </div>
+        
+
+        <!-- Box Carousel on Left Side of the webpage -->
+        
+
+
+
+                            
+<!-- Product Content End Here Dont touch this div -->
+</div>
+
+            <!-- <div class="container-fluid cus-md d-flex bg-primary mt-3 mb-3 justify-content-start">
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+                    <img class="imgfash" src="img/Grocery.webp" alt="Grocery"></a>
+                    <h6 class="text-black text-center">Grocery</h6>
+                </div>
+    
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+                    <img class="imgfash" src="img/Grocery.webp" alt="Grocery"></a>
+                    <h6 class="text-black text-center">Grocery</h6>
+                </div>
+    
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+                    <img class="imgfash" src="img/Grocery.webp" alt="Grocery"></a>
+                    <h6 class="text-black text-center">Grocery</h6>
+                </div>
+    
+                <div class="p-2">
+                    <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_a2bd505b-1877-44a1-bbe1-01887f793a31_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">
+                    <img class="imgfash" src="img/Grocery.webp" alt="Grocery"></a>
+                    <h6 class="text-black text-center">Grocery</h6>
+                </div>
+            </div> -->
+            </div>
+        </div>
+
+
+        <!-- sample code -->
+        
+
+        </div>
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="container-xl">
+        <div class="row">
+            <!-- About -->
+            <div class="col-md-2">
+                <div class="footer-title">ABOUT</div>
+                <ul class="list-unstyled">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <!-- Group Companies -->
+            <div class="col-md-2">
+                <div class="footer-title">GROUP COMPANIES</div>
+                <ul class="list-unstyled">
+                    <li><a href="#">Myntra</a></li>
+                    <li><a href="#">Cleartrip</a></li>
+                    <li><a href="#">Shopsy</a></li>
+                </ul>
+            </div>
+            <!-- Help -->
+            <div class="col-md-2">
+                <div class="footer-title">HELP</div>
+                <ul class="list-unstyled">
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report Infringement</a></li>
+                </ul>
+            </div>
+            <!-- Consumer Policy -->
+            <div class="col-md-2">
+                <div class="footer-title">CONSUMER POLICY</div>
+                <ul class="list-unstyled">
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                    <li><a href="#">EPR Compliance</a></li>
+                </ul>
+            </div>
+
+            <!-- Mail Us -->
+            <div class="col-md-2">
+              <div class="vertical-line"></div>
+                <div class="footer-title">Mail Us:</div>
+                <div class="contact-info">
+                    Flipkart Internet Private Limited,<br>
+                    Buildings Alyssa, Begonia &<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    Bengaluru, 560103,<br>
+                    Karnataka, India
+                </div>
+            </div>
+            
+            <!-- Registered Office Address -->
+            <div class="col-md-2">
+                <div class="footer-title">Registered Office Address:</div>
+                <div class="contact-info">
+                    Flipkart Internet Private Limited,<br>
+                    Buildings Alyssa, Begonia &<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    Bengaluru, 560103,<br>
+                    Karnataka, India<br>
+                    CIN : U51109KA2012PTC066107<br>
+                    Telephone:
+                    <a href="#" class="text-primary" style="font-size: 13px;">044-45614700</a> / 
+                    <a href="#" class="text-primary" style="font-size: 13px;">044-67451800</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer-end border-t border-[#848484] py-4">
+    <div class="container footer-end-2 text-white d-flex align-items-center justify-content-between">
+        <div class="footer-links">
+            <a href="#" class="footer-link"><i class="fa-solid fa-briefcase text-[#fbbf24]"></i><strong>Become a Seller</strong></a>
+            <a href="#" class="footer-link"><i class="fa-solid fa-arrow-trend-up text-[#fbbf24]"></i><strong>Advertise</strong></a>
+            <a href="#" class="footer-link"><i class="fa-solid fa-gift text-[#fbbf24]"></i><strong>Gift-Cards</strong></a>
+            <a href="#" class="footer-link"><i class="fa-sharp fa-solid fa-circle-question text-[#fbbf24]"></i><strong>Help Center</strong></a>
+            <a href="#" class="pl-3" style="font-size: 15px;">@2007-2024 Flipkart.in</a>
+        </div>
+        <div class="footer-payment-methods">
+            <img src="img/payment-method.png" class="scale-125" alt="Accepted Payment Methods">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- BOOTSTRAP 5 JS SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
